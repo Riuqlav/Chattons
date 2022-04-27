@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Chattons/static/css/main.e6c13ad2.css",
+    "main.js": "/Chattons/static/js/main.2db1ef6a.js",
+    "index.html": "/Chattons/index.html",
+    "main.e6c13ad2.css.map": "/Chattons/static/css/main.e6c13ad2.css.map",
+    "main.2db1ef6a.js.map": "/Chattons/static/js/main.2db1ef6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.2db1ef6a.js"
+  ]
+}
