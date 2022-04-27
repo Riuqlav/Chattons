@@ -1,12 +1,9 @@
-import "./App.css";
-
-import React from "react";
 import { MultiChatWindow } from "react-chat-engine-advanced";
 
 const App = () => {
   return (
     <div>
-      <MultiChatWindow />
+      <MultiChatWindow style={{ height: "100vh" }} />
     </div>
   );
 };
