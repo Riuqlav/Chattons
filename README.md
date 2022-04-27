@@ -1,7 +1,15 @@
-# Create React App for TypeScript
+# This is a Fullstack chat app connected to a server.
 
-`npx create-react-app typescript-chat-tutorial --template typescript`
+This project focuses on Typescript, Simple APIs & UI Kits.
 
-## Next Steps
+DEMO: https://riuqlav.github.io/Chattons/
 
-Check code changes in the Pull Requests.
+## Tools and technologies used
+
+React, TypeScript, Chat Engine
+### How to use:
+
+1. Creact a Username and Password.<br>
+2. Start a new chat in the top left.<br>
+3. Go and talk with cats.😹
+
