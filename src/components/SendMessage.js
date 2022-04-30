@@ -9,7 +9,7 @@ function SendMessage() {
       <form>
         <Input
           value={msg}
-          onChange={(e) => setMsg(e.target.value)} //every key pressed will update the state, probably not the best for performance but it works
+          onChange={(e) => setMsg(e.target.value)} //every entry key pressed will update the state, probably not the best for performance but it works
           placeholder="Message..."
         />
         <Button>Send</Button>
