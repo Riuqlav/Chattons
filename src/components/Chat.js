@@ -33,7 +33,8 @@ function Chat() {
           </div>
         ))}
       </div>
-      <SendMessage />
+      <SendMessage /*scroll={scroll} */ />
+      {/* <div ref={scroll}></div> */}
     </div>
   );
 }
