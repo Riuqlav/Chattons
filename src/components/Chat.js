@@ -34,7 +34,7 @@ function Chat() {
       <SendMessage scroll={scroll} />
       <div ref={scroll}></div>{" "}
       {/*this is a dummy div that will be scrolled to
-      the bottom using useRef */}
+      the bottom using useRef hook*/}
     </div>
   );
 }
