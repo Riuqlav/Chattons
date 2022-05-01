@@ -1,10 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
 import { db, auth } from "../firebase";
 import SendMessage from "./SendMessage";
-import SignOut from "./SignOut";
 
 function Chat() {
-  //    const scroll = useRef()
+  const scroll = useRef();
 
   const [messages, setMessages] = useState([]);
   useEffect(() => {
@@ -17,7 +16,6 @@ function Chat() {
   }, []);
   return (
     <div>
-      <SignOut />
       <div className="msgs">
         {messages.map(({ id, text, photoURL, uid }) => (
           <div>
@@ -33,8 +31,10 @@ function Chat() {
           </div>
         ))}
       </div>
-      <SendMessage /*scroll={scroll} */ />
-      {/* <div ref={scroll}></div> */}
+      <SendMessage scroll={scroll} />
+      <div ref={scroll}></div>{" "}
+      {/*this is a dummy div that will be scrolled to
+      the bottom using useRef */}
     </div>
   );
 }
