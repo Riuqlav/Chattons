@@ -1,16 +1,19 @@
 import "./App.css";
 import Chat from "./components/Chat";
 import SignIn from "./components/SignIn";
+import SignOut from "./components/SignOut";
 import { auth } from "./firebase.js";
 import { useAuthState } from "react-firebase-hooks/auth";
-import Header from "./components/Header";
 
 function App() {
   const [user] = useAuthState(auth);
   return (
-    <div>
-      <Header />
-      <div className="card">{user ? <Chat /> : <SignIn />}</div>
+    <div className="App">
+      <header>
+        <h1>🐈‍⬛CHATTONS🐈‍⬛</h1>
+        <SignOut />
+      </header>
+      <section className="card">{user ? <Chat /> : <SignIn />}</section>
     </div>
   );
 }

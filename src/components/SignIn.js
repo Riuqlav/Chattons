@@ -20,10 +20,24 @@ const SignIn = () => {
     >
       <Button
         style={{
-          padding: "30px",
-          fontSize: "20px",
-          borderRadius: "0",
+          // padding: "30px",
+          // fontSize: "20px",
+          // borderRadius: "0",
+          // fontWeight: "600",
+
+          fontSize: "15px",
+          borderRadius: "10",
           fontWeight: "600",
+          paddingRight: "30px",
+          paddingLeft: "20px",
+          backgroundColor: "lightgray",
+          border: "none",
+          color: "black",
+          padding: "16px 32px",
+          textAlign: "center",
+          margin: "4px 2px",
+          opacity: "0.6",
+          transition: "0.3s",
         }}
         onClick={signInWithGoogle}
       >

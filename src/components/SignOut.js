@@ -1,7 +1,6 @@
 import React from "react";
 import { auth } from "../firebase.js";
 import { Button } from "@material-ui/core";
-import Header from "./Header.js";
 
 const SignOut = () => {
   return (
@@ -11,22 +10,31 @@ const SignOut = () => {
         justifyContent: "end",
         position: "fixed",
         width: "100%",
-        backgroundColor: "white",
-        top: 0,
-        borderBottom: "solid 1px lightgray",
+        top: "5",
+        bottom: "5",
+        left: "5",
+
+        borderRadius: "10",
+
         zIndex: "10",
       }}
     >
-      <Header />
-
       <Button
         style={{
-          padding: "20px",
+          // padding: "20px",
           fontSize: "15px",
-          borderRadius: "0",
+          borderRadius: "10",
           fontWeight: "600",
-          paddingRight: "50px",
-          paddingLeft: "50px",
+          paddingRight: "30px",
+          paddingLeft: "20px",
+          backgroundColor: "lightgray",
+          border: "none",
+          color: "black",
+          padding: "16px 32px",
+          textAlign: "center",
+          margin: "4px 2px",
+          opacity: "0.6",
+          transition: "0.3s",
         }}
         onClick={() => auth.signOut()}
       >
