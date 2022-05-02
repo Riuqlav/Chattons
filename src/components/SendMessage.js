@@ -27,10 +27,11 @@ function SendMessage({ scroll }) {
         <div className="sendMsg">
           <Input
             style={{
-              width: "78%",
+              width: "100%",
               fontSize: "15px",
               fontWeight: "550",
               marginLeft: "5px",
+
               marginBottom: "-3px",
             }}
             placeholder="Message..."
