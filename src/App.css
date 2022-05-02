@@ -83,7 +83,7 @@ p {
   display: flex;
   flex-direction: column;
 }
-.home {
+body {
   background-image: url("/cats.jpeg");
   background-size: cover;
 }

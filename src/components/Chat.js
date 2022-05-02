@@ -4,7 +4,6 @@ import SendMessage from "./SendMessage";
 
 function Chat() {
   const scroll = useRef();
-
   const [messages, setMessages] = useState([]);
   useEffect(() => {
     db.collection("messages")
@@ -32,7 +31,7 @@ function Chat() {
         ))}
       </div>
       <SendMessage scroll={scroll} />
-      <div ref={scroll}></div>{" "}
+      <div ref={scroll}></div>
       {/*this is a dummy div that will be scrolled to
       the bottom using useRef hook*/}
     </div>
