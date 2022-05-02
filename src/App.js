@@ -13,7 +13,9 @@ function App() {
         <h1>🐈‍⬛CHATTONS🐈‍⬛</h1>
         <SignOut />
       </header>
-      <section className="card">{user ? <Chat /> : <SignIn />}</section>
+      <div className="home">
+        <section className="card">{user ? <Chat /> : <SignIn />}</section>
+      </div>
     </div>
   );
 }

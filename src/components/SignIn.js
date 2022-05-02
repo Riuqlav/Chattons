@@ -35,8 +35,7 @@ const SignIn = () => {
           color: "black",
           padding: "16px 32px",
           textAlign: "center",
-          margin: "4px 2px",
-          opacity: "0.6",
+          opacity: "0.7",
           transition: "0.3s",
         }}
         onClick={signInWithGoogle}

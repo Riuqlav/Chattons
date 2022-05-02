@@ -21,20 +21,16 @@ const SignOut = () => {
     >
       <Button
         style={{
-          // padding: "20px",
           fontSize: "15px",
           borderRadius: "10",
           fontWeight: "600",
-          paddingRight: "30px",
-          paddingLeft: "20px",
+          padding: "15px",
           backgroundColor: "lightgray",
-          border: "none",
           color: "black",
-          padding: "16px 32px",
           textAlign: "center",
-          margin: "4px 2px",
-          opacity: "0.6",
+          opacity: "0.7",
           transition: "0.3s",
+          marginRight: "15px",
         }}
         onClick={() => auth.signOut()}
       >
