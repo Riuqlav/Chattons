@@ -8,6 +8,6 @@ DEMO: https://riuqlav.github.io/Chattons/
 
 React, TypeScript, MaterialUI, Firebase database/ Google auth
 
-### `You'll need Pop-ups enabled to connect`
+### `You'll need Pop-ups enabled to connect.`
 
 Sign in with a Google account and leave me a message!
