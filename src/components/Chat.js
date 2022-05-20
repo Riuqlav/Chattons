@@ -3,9 +3,9 @@ import { db, auth } from "../firebase";
 import SendMessage from "./SendMessage";
 
 function Chat() {
-  const scroll = useRef();
+  const scroll = useRef(); 
   const [messages, setMessages] = useState([]);
-  useEffect(() => {
+  useEffect(() => { //stack overflow snnipet to limit and order messages
     db.collection("messages")
       .orderBy("createdAt")
       .limit(50)
