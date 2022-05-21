@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Chattons/static/css/main.6a286f86.css",
-    "main.js": "/Chattons/static/js/main.4caf8796.js",
+    "main.js": "/Chattons/static/js/main.4ffa0245.js",
     "static/media/cats.jpeg": "/Chattons/static/media/cats.912abb733fa4a9273c25.jpeg",
     "index.html": "/Chattons/index.html",
     "main.6a286f86.css.map": "/Chattons/static/css/main.6a286f86.css.map",
-    "main.4caf8796.js.map": "/Chattons/static/js/main.4caf8796.js.map"
+    "main.4ffa0245.js.map": "/Chattons/static/js/main.4ffa0245.js.map"
   },
   "entrypoints": [
     "static/css/main.6a286f86.css",
-    "static/js/main.4caf8796.js"
+    "static/js/main.4ffa0245.js"
   ]
 }
