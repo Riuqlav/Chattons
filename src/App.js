@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <header>
         <h1>🐈‍⬛CHATTONS🐈‍⬛</h1>
-        <SignOut />
+        {user ? <SignOut /> : null}{" "}
       </header>
       <div className="home">
         <section className="card">{user ? <Chat /> : <SignIn />}</section>
